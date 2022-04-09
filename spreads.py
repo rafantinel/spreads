@@ -41,8 +41,8 @@ def get_stats(data, rv = {}):
     q1 = round(data["spread"].quantile(q = 0.25), 4)
     q3 = round(data["spread"].quantile(q = 0.75), 4)
     iqr = round(q3 - q1, 4)
-    ls = round(ma + 1.5*iqr, 4)
-    li = round(ma - 1.5*iqr, 4)
+    ls = round(q3 + 1.5*iqr, 4)
+    li = round(q1 - 1.5*iqr, 4)
 
     rv["Média"] = [ma]
     rv["Desvio-P"] = [dp]
