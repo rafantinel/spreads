@@ -6,7 +6,7 @@ import csv
 df = pd.read_csv("spreads.csv")
 
 # Eixo x do gráfico
-x = list(range(1, df.shape[0] + 1))
+
 # Spread de cada cooperativa
 ma = list(df["spread"])
 
