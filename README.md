@@ -12,4 +12,4 @@ Análise de informações fictícias sobre contratos de crédito direcionado com
 
 ## Github Repository
 
-https://github.com/rafantinel/cr-direcionado
+https://github.com/rafantinel/spreads
